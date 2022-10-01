@@ -1,0 +1,60 @@
+# NFT-Minting-DApp - Polygon Testnet
+
+NFT minting Website with smart contract.
+
+Demo of the website : https://cryptopig.netlify.app/
+
+ScreenShots   #CryptoPigs Minting Website.
+
+![](./FrontEnd/src/assets/screenshots/cryptopig1.PNG)
+
+
+![](./FrontEnd/src/assets/screenshots/cryptopig2.PNG)
+
+
+![](./FrontEnd/src/assets/screenshots/cryptopig3.PNG)
+
+
+![](./FrontEnd/src/assets/screenshots/cryptopig4.PNG)
+
+
+![](./FrontEnd/src/assets/screenshots/cryptopig5.PNG)
+
+
+
+## Installation
+
+If you are cloning the project then run this first
+
+```sh
+git clone https://github.com/Aradhya1905/CryptoPigs.git
+```
+Make sure you have node.js ,then run "npm install" in Frontend Folder
+
+```sh
+npm install
+```
+
+## Usage
+
+For Dev server run command
+
+```sh
+npm run dev
+```
+For Production run , 
+
+```sh
+npm run build
+```
+
+In order to run tests on smart contract run "npm install" in Contracts folder to install Hardhat ,then run 
+
+```sh
+npx hardhat test
+```
+In order to run smart contract on different test network create a '.env' file to store the environment variables ,
+
+Get the RPC url from node providers like Alchemy / Infura and Private key can be obtained from metamask wallet.
+Please make sure to include RPC url and Private key in Hardhat config file.
+
